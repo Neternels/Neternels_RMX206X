@@ -22,7 +22,6 @@ source "drivers/soc/oppo/device_info/Kconfig"
 source "drivers/soc/oppo/mdmrst/Kconfig"
 source "drivers/soc/oppo/oppo_hypnus/Kconfig"
 source "drivers/soc/oppo/oppo_healthinfo/Kconfig"
-source "drivers/soc/oppo/oppo_shutdown_detect/Kconfig"
 source "drivers/soc/oppo/oppo_criticallog/Kconfig"
 
 #Kun.Hu@TECH.BSP.Stability.PHOENIX_PROJECT 2019/06/15, Add for PHOENIX_PROJECT

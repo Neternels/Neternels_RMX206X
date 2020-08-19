@@ -2,7 +2,6 @@ obj-$(CONFIG_OPPO_COMMON_SOFT)	+=  device_info/
 obj-$(CONFIG_OPPO_DEVICE_IFNO)	+=  project_info/
 obj-$(CONFIG_RECORD_MDMRST)	+=  mdmrst/
 obj-$(CONFIG_OPPO_HYPNUS)     +=  oppo_hypnus/
-obj-$(CONFIG_OPPO_SHUTDOWN_DETECT)	+=  oppo_shutdown_detect/
 obj-y +=  oppo_als_cali_value/
 obj-y +=  oppo_healthinfo/
 obj-y +=  oppo_criticallog/

@@ -96,10 +96,6 @@ $(obj)/lkdtm_rodata_objcopy.o: $(obj)/lkdtm_rodata.o FORCE
 obj-$(CONFIG_OKL4_USER_VIPC)    += okl4-vipc.o
 obj-$(CONFIG_OKL4_GUEST)        += okl4-panic.o
 obj-$(CONFIG_OKL4_LINK_SHBUF)    += okl4-link-shbuf.o
-#ifdef VENDOR_EDIT
-#//bajrang.patidar@BSP.kernel.Basic, 2019/09/03, add oppo motor for camera
-obj-$(CONFIG_OPPO_MOTOR) += oppo_motor/ motor.o
-#endif /*VENDOR_EDIT*/
 
 #ifdef ODM_LQ_EDIT
 #/*Lixiang.Xue@ODM_LQ@BSP.rf_cable,2019/11/29 Add RF cable connection status*/
