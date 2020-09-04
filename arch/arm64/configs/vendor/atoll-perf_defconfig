@@ -906,3 +906,5 @@ CONFIG_OPPO_HYPNUS=y
 #/*Lixiang.Xue@ODM_LQ@BSP.rf_cable,2019/11/29 Add RF cable connection status*/
 CONFIG_RF_CABLE=y
 #endif
+
+CONFIG_QCA_CLD_WLAN=y
